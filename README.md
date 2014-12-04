@@ -10,18 +10,16 @@ Notes:
 
 
 Testing:
-1. Listing employees (GET)
+>1. Listing employees (GET)
     http://localhost:8080/employee/list
 2. Creating a employee (POST)
     http://localhost:8080/employee/create
     expample parameter: 
-
-    {
+   >{
     "firstName": "Hoston",
     "lastName": "lindey",
     "email": "hl@gmail.com",
     "phone": "90908989899"
     },
-    
 3. Deleting a employee(GET)
    http://localhost:8080/employee/delete/{id}
