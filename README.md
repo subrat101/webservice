@@ -1,7 +1,7 @@
 Sample WebService in Spring Framework
 ==========
 Notes:
-1. Create a database named employee_d in mysql
+1. Create a database named employee_db in mysql
 2. Change the database the DB credentials on:
    webservice/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml
 3. Use postman to test the app since it requires the application/json header
